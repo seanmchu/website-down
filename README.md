@@ -1,2 +1,3 @@
 # seanmchu.github.io
-Homepage 
+Homepage.
+Link: https://seanmchu.github.io/index.html
