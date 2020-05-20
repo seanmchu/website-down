@@ -93,8 +93,11 @@ td {
 .Termheader{
     font-size: 23px;
 }
-.Courseheadr{
-    font-size: 23px;
+.Courseheader{
+    font-size: 20px;
+}
+.Courseinfo{
+    font-size:20px;
 }
 
 #Name{
