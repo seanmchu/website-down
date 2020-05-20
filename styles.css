@@ -77,6 +77,25 @@ td {
     line-height: 1.6;
     font-size: 22px;
 }
+.CourseMainBody {
+    margin:150px;
+    margin-top:0px;
+    margin-bottom:0px;
+}
+
+.Termbox{
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding: 20px;
+    padding-top: 0px;
+    background-color: #EFDD6F;
+}
+.Termheader{
+    font-size: 23px;
+}
+.Courseheadr{
+    font-size: 23px;
+}
 
 #Name{
     font-size: 70px;
