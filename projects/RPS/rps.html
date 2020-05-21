@@ -1,0 +1,42 @@
+<meta charset="UTF-8">
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Sean's Homepage </title>
+        <link rel = "stylesheet" href = "styles.css">
+    </head>
+    <body>
+        <header>
+            <span class = "localLink"><a href = "../../index.html" title = "Return to the main page"> Main </a> </span>
+            <span class = "localLink"><a href = "../../about.html" title = "View a summary and short CV"> About me </a> </span>
+            <span class = "localLink"><a href = "../../courses.html" title = "See my completed courses"> Courses </a></span>
+            <span class = "localLink"><a href = "../../projects.html" title = "See my software projects"> Projects </a></span>
+            <span class = "localLink"><a href = "../../blog.html" title = "My blog"> Blog </a></span>
+            <span class = "localLink"><a href = https://github.com/seanmchu title = "Github"> Github </a></span>
+        </header>
+        <div class = "TextHeader">
+            <h1> Rock paper scissors game</h1>
+        </div>
+        <div class = "scoreboard">
+            <span id = "user" class = "boardlabel"> User </span> <span id = playerScore class = score> 0 </span>:<span id = compScore class = score> 0 </span> <span id = "comp" class = "boardlabel"> Comp </span>
+        </div>
+        <div class = "TextHeader"> 
+            <h3>Choose your move!</h3>
+        </div>
+        <div class = "buttonwrapper">
+            <span id = "rock" class = "choice">
+                <img id = "r" src = "src/rock.jpg" >
+            </span>
+            <span id = "paper" class = "choice">
+                <img id = "p" src = "src/paper.jpg">
+            </span>
+            <span id = "scissors" class = "choice">
+                <img id = "s" src = src/scissors.jpg>
+            </span>
+        </div>
+        <div class = "TextHeader">
+            <div id = "result">You chose scissors, comp chose rock, you win!</div>
+        </div>
+        <script src = rps.js charset = "utf-8"></script>
+    </body>
+</html>

@@ -34,16 +34,6 @@ a:hover{
     color:#EFDD6F;
 }
 
-table{
-    width:70%;
-    border: 1px solid #453823;
-}
-th {
-    font-size: 30px;
-}
-td {
-    font-size: 30px;
-}
 
 .localLink {
     font-size:30px;
@@ -77,41 +67,66 @@ td {
     line-height: 1.6;
     font-size: 22px;
 }
-.CourseMainBody {
-    margin:150px;
-    margin-top:0px;
-    margin-bottom:0px;
+
+.buttonwrapper{
+    display: block;
+    text-align:center;
 }
 
-.Termbox{
-    border-radius: 10px;
-    margin-bottom: 20px;
-    padding: 20px;
-    padding-top: 0px;
-    background-color: #EFDD6F;
-}
-.Termheader{
-    font-size: 23px;
-}
-.Courseheader{
-    font-size: 20px;
-}
-.Courseinfo{
-    font-size:20px;
-}
-.ProjectList{
-    font-size:30px;
-}
-#Name{
-    font-size: 70px;
+.choice{
+    border: 1px solid transparent;
 }
 
-#Occupation{
-    font-size: 25px;
+#r:hover{
+    border: 5px solid rgba(127, 6, 131, 0.959);
+    cursor:pointer;
 }
-#fatman {
-    float:right;
-    width:600px;
+#p:hover{
+    border: 5px solid rgba(127, 6, 131, 0.959);
+    cursor:pointer;
+}
+#s:hover{
+    border: 5px solid rgba(127, 6, 131, 0.959);
+    cursor:pointer;
+}
+#r{
+    border: 5px solid transparent;
+    width: 250px;
+    border-radius: 50%;
+    margin-right:50px;
+}
+#p{
+    border: 5px solid transparent;
+    width: 250px;
+    border-radius: 50%;
+    margin-left:50px;
+    margin-right:50px;
+}
+#s{
+    border: 5px solid transparent;
+    margin-left:50px;
+    width: 250px;
+    border-radius: 50%;
 }
 
-
+.scoreboard{
+    width:15%;
+    margin:auto;
+    text-align:center;
+    font-size:40;
+    background-color: #EFE0B9;
+    border-radius:40%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.boardlabel{
+    backgroud: #E2584D;
+    margin: 65px;
+}
+#user{
+    margin-left: -12px;
+}
+#comp{
+    margin-right: -16px;
+    margin-left: 60px;
+}
