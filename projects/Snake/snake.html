@@ -1,0 +1,40 @@
+<meta charset="UTF-8">
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Sean's Homepage </title>
+        <link rel = "stylesheet" href = "snake.css">
+    </head>
+    <body>
+        <header>
+            <span class = "localLink"><a href = "../../index.html" title = "Return to the main page"> Main </a> </span>
+            <span class = "localLink"><a href = "../../about.html" title = "View a summary and short CV"> About me </a> </span>
+            <span class = "localLink"><a href = "../../courses.html" title = "See my completed courses"> Courses </a></span>
+            <span class = "localLink"><a href = "../../projects.html" title = "See my software projects"> Projects </a></span>
+            <span class = "localLink"><a href = "../../blog.html" title = "My blog"> Blog </a></span>
+            <span class = "localLink"><a href = https://github.com/seanmchu title = "Github"> Github </a></span>
+        </header>
+        <div class = "TextHeader">
+            <h1> Snake game</h1>
+        </div>
+        <div class = "speeds">
+        <div id = "start" class = "button"> <u> Start </u> </div>
+        </div>
+        <div class = "scoreboard">
+            Score: <span id = "score"> 0 </span>
+        </div>
+        <div class = "box">
+            <canvas id = "gameBox" width = "300" height = "300">
+            </canvas>
+        </div>
+        <div class = "speeds">
+            <u>Select Game speed:</u>  
+            <div>
+            <div id = "slow" class = "button">slow</div> 
+            <div id = "medium" class = "button">medium</div>
+            <div id = "fast" class = "button">fast</div>
+            </div>
+        </div>
+        <script src = "snake.js" charset = "UTF-8"></script>
+    </body>
+</html>
