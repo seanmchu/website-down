@@ -10,12 +10,12 @@
 }
 
 body {
-    background-color:#BA6222;
-    color: #453823;
+    background-color: white;
+    color: #192841;
 }
 
 header {
-    background-color:#738F9B;;
+    background-color:RGB(196,202,206);
     padding: 70px;
     margin-top :-10px;
     margin-left : -10px;
@@ -24,14 +24,14 @@ header {
 a:link{
     font-weight: bold;
     text-decoration: none;
-    color:#E49135;
+    color:#2f3b47;
 }
 a:visited{
     text-decoration: none;
-    color:#E49135;
+    color:#2f3b47;
 }
 a:hover{
-    color:#EFDD6F;
+    color:#b4a331;
 }
 
 
@@ -114,7 +114,7 @@ a:hover{
     margin:auto;
     text-align:center;
     font-size:40;
-    background-color: #EFE0B9;
+    background-color: #d9dadf;
     border-radius:40%;
     padding-top: 40px;
     padding-bottom: 40px;

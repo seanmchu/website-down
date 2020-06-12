@@ -10,12 +10,12 @@
 }
 
 body {
-    background-color:#BA6222;
-    color: #453823;
+    background-color: white;
+    color: #192841;
 }
 
 header {
-    background-color:#738F9B;;
+    background-color:RGB(196,202,206);
     padding: 70px;
     margin-top :-10px;
     margin-left : -10px;
@@ -24,14 +24,14 @@ header {
 a:link{
     font-weight: bold;
     text-decoration: none;
-    color:#E49135;
+    color:#2f3b47;
 }
 a:visited{
     text-decoration: none;
-    color:#E49135;
+    color:#2f3b47;
 }
 a:hover{
-    color:#EFDD6F;
+    color:#a00571;
 }
 
 table{
@@ -60,6 +60,8 @@ td {
 
 }
 
+
+
 .Maintext{
     
     word-wrap: break-word;
@@ -76,6 +78,11 @@ td {
 .TextParagraph{
     line-height: 1.6;
     font-size: 22px;
+    margin:auto;
+    background-color: #F0F0F0;
+    border-radius:20px;
+    width: 1500px;
+    padding-left:20px;
 }
 .CourseMainBody {
     margin:150px;
@@ -88,7 +95,7 @@ td {
     margin-bottom: 20px;
     padding: 20px;
     padding-top: 0px;
-    background-color: #EFDD6F;
+    background-color: #F0F0F0;
 }
 .Termheader{
     font-size: 23px;
@@ -113,11 +120,29 @@ td {
 #Occupation{
     font-size: 25px;
 }
-#fatman {
+#dong_dog{
+    max-width:400px;
+}
+#dong_man{
+    max-width:500px;
+}
+.right_image {
+    width:auto;
+    max-width: 40%;
+    height:auto;
     float:right;
-    width:600px;
+    margin: 20 40 20 20;
+    border-radius: 15px;
 }
 
+.left_image {
+    width:auto;
+    max-width: 40%;
+    height:auto;
+    float:left;
+    margin: 20 20 20 40;
+    border-radius:15px;
+}
 .project{
     margin:20px;
 }
@@ -132,6 +157,18 @@ td {
 }
 
 .project_type{
-    margin-bottom: 100px;
+    line-height: 1.6;
+    font-size: 22px;
+    margin:auto;
+    background-color: #F0F0F0;
+    border-radius:20px;
+    width: 1500px;
+    padding-left:20px;
+}
+
+.quote{
+    font-size:20px;
+    padding-bottom: 60px;
+    padding-top: 60px;
 }
 
