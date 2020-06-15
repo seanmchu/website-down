@@ -1,72 +1,4 @@
-<style>
-@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;700&display=swap');
-</style> 
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'EB Garamond',serif;
-}
-
-body {
-    background-color: white;
-    color: #192841;
-}
-
-header {
-    background-color:RGB(196,202,206);
-    padding: 70px;
-    margin-top :-10px;
-    margin-left : -10px;
-    margin-right: -10px;
-}
-a:link{
-    font-weight: bold;
-    text-decoration: none;
-    color:#2f3b47;
-}
-a:visited{
-    text-decoration: none;
-    color:#2f3b47;
-}
-a:hover{
-    color:#b4a331;
-}
-
-
-.localLink {
-    font-size:30px;
-    padding: 30px;
-    margin-left: -40px;
-    margin-right: 20px;
-}
-
-.MainInfo{
-    margin: auto;
-    text-align: center;
-    width: 60%;
-    padding:300px;
-
-}
-
-.Maintext{
-    
-    word-wrap: break-word;
-}
-
-.TextHeader{
-    margin: auto;
-    text-align: center;
-    width: 50%;
-    padding-bottom: 20px;
-    font-size: 30px;
-}
-
-.TextParagraph{
-    line-height: 1.6;
-    font-size: 22px;
-}
 
 .buttonwrapper{
     display: block;
@@ -110,14 +42,13 @@ a:hover{
 }
 
 .scoreboard{
-    width:25%;
+    width: 800px;
     margin:auto;
     text-align:center;
     font-size:40;
     background-color: #d9dadf;
     border-radius:40%;
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding: 40px 20px ;
 }
 .boardlabel{
     backgroud: #E2584D;

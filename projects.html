@@ -7,17 +7,32 @@
     </head>
     <body>
         <header>
-            <span class = "localLink"><a href = "index.html" title = "Return to the main page"> Main </a> </span>
-            <span class = "localLink"><a href = "about.html" title = "🙈️"> About me </a> </span>
-            <span class = "localLink"><a href = "courses.html" title = "🏫️"> Courses </a></span>
-            <span class = "localLink"><a href = "projects.html" title = "🤓️"> Projects </a></span>
-            <span class = "localLink"><a href = "quotes.html" title = "🦍️ Inspiration 🦍️"> Quotes </a></span>
-            <span class = "localLink"><a href = https://github.com/seanmchu title = "Github"> Github </a></span>
+            <ul id = "header-list">
+                <li>
+                    <span class = "localLink"><a href = "index.html" title = "Return to the main page"> Main </a> </span>
+                </li>
+                <li>
+                    <span class = "localLink"><a href = "about.html" title = "🙈️"> About me </a> </span>
+                </li>
+                <li>
+                    <span class = "localLink"><a href = "courses.html" title = "🏫️"> Courses </a></span>
+                </li>
+                <li>
+                    <span class = "localLink"><a href = "projects.html" title = "🤓️"> Projects </a></span>
+                </li>
+                <li>
+                    <span class = "localLink"><a href = "quotes.html" title = "🦍️ Inspiration 🦍️"> Quotes </a></span>
+                </li>
+                <li>
+                    <span class = "localLink"><a href = https://github.com/seanmchu title = "Github"> Github </a></span>
+                </li>
+            </ul>
         </header>
-        <div class = "TextHeader">
-            <h1> My projects </h1>
-        </div>
-        <div class = "all_projects">
+
+        <div class = "MainBody" id = "projects">
+            <div class = "TextHeader">
+                <h1> <u> My projects </u> </h1>
+            </div>
             <div class = "project_type">
                 <u><h2> Non course related projects </h2></u>
                 <div class = "ProjectList">
@@ -29,6 +44,7 @@
                                 Written 21/05/2020 <br>
                                 First practice with JavaScript <br>
                                 Still looks a little janky. <br>
+
                             </div>
                         </div>
                         <div class = "project">
@@ -37,11 +53,13 @@
                                 Written 21/05/2020 <br>
                                 Second practice with JaveScript <br> 
                                 First time using animated movement in JS <br>
+                                Game isn't wrapped in a main div intentionally for the snake on background effect<br>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
+            
             <div class = "project_type">
                 <u><h2> Course related projects </h2></u>
                 <div class = "ProjectList">

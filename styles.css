@@ -10,17 +10,36 @@
 }
 
 body {
-    background-color: white;
+    background-image: url("src/altai.jpg");
     color: #192841;
 }
 
+/* legacy css here, bad camelCase for most of these, but whatever */
+
+.MainBody {
+    background-color:#F0F0F0;
+    width:1000px;
+    border-width:20px;
+    margin:auto;
+    margin-top:50px;
+    text-align:center;
+    margin-bottom:0px;
+    border-radius:20px;
+    padding:30px 60px;
+    border:2px solid #0A0A00;
+}
+
+
 header {
     background-color:RGB(196,202,206);
-    padding: 70px;
-    margin-top :-10px;
-    margin-left : -10px;
-    margin-right: -10px;
+    padding: 40px;
+    border-radius:20px;
+    margin:auto;
+    width:1400px;
+    text-align:justify;
 }
+
+
 a:link{
     font-weight: bold;
     text-decoration: none;
@@ -32,18 +51,9 @@ a:visited{
 }
 a:hover{
     color:#a00571;
+    text-shadow: 0 0 3px white, 0 0 5px white;
 }
 
-table{
-    width:70%;
-    border: 1px solid #453823;
-}
-th {
-    font-size: 30px;
-}
-td {
-    font-size: 30px;
-}
 
 .localLink {
     font-size:30px;
@@ -57,20 +67,21 @@ td {
     text-align: center;
     width: 60%;
     padding:300px;
-
+    text-shadow: -1px 0 #E5E5E5, 0 1px #E5E5E5, 1px 0 #E5E5E5, 0 -1px #E5E5E5;
 }
 
-
+.about{
+    font-size:22px;
+}
 
 .Maintext{
-    
     word-wrap: break-word;
 }
 
 .TextHeader{
     margin: auto;
     text-align: center;
-    width: 50%;
+    width: 80%;
     padding-bottom: 20px;
     font-size: 30px;
 }
@@ -84,18 +95,14 @@ td {
     width: 1500px;
     padding-left:20px;
 }
-.CourseMainBody {
-    margin:150px;
-    margin-top:0px;
-    margin-bottom:0px;
-}
+
 
 .Termbox{
-    border-radius: 10px;
+    border-radius: 20px;
     margin-bottom: 20px;
     padding: 20px;
     padding-top: 0px;
-    background-color: #F0F0F0;
+    background-color: #E0E0E0;
 }
 .Termheader{
     font-size: 23px;
@@ -108,29 +115,25 @@ td {
 }
 .ProjectList{
     text-align: center;
-    font-size:30px;
-    width:60%;
+    font-size:25px;
+    width:90%;
     margin:auto;
     margin-top: 40px;
 }
-#Name{
-    font-size: 70px;
-}
 
-#Occupation{
-    font-size: 25px;
-}
-#dong_dog{
-    max-width:400px;
-}
-#dong_man{
-    max-width:500px;
-}
+
 .right_image {
     width:auto;
     max-width: 40%;
     height:auto;
     float:right;
+    margin: 20 40 20 20;
+    border-radius: 15px;
+}
+.middle_image {
+    width:auto;
+    width: 65%;
+    height:auto;
     margin: 20 40 20 20;
     border-radius: 15px;
 }
@@ -151,19 +154,12 @@ td {
     margin:20px;
     line-height:50px;
 }
-.all_projects{
-    text-align:center;
-    font-size:35px;
-}
 
 .project_type{
     line-height: 1.6;
     font-size: 22px;
-    margin:auto;
-    background-color: #F0F0F0;
+    background-color: #E0E0E0;
     border-radius:20px;
-    width: 1500px;
-    padding-left:20px;
 }
 
 .quote{
@@ -172,3 +168,36 @@ td {
     padding-top: 60px;
 }
 
+/* End legacy classes*/
+
+
+/* Id customisations*/
+
+#header-list{
+    text-align:justify;
+}
+#header-list li{
+    display: inline-block;
+}
+#header-list:after{
+    content: '';
+    width: 100%; 
+    display: inline-block;
+}
+#projects{
+    font-size:35px; 
+}
+
+#Name{
+    font-size: 70px;
+}
+
+#Occupation{
+    font-size: 25px;
+}
+#dong_dog{
+    max-width:400px;
+}
+#dong_man{
+    max-width:500px;
+}
