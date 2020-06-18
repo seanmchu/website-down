@@ -97,13 +97,14 @@ a:hover{
 }
 
 
-.Termbox{
+.box{
     border-radius: 20px;
     margin-bottom: 20px;
     padding: 20px;
     padding-top: 0px;
     background-color: #E0E0E0;
 }
+
 .Termheader{
     font-size: 23px;
 }
@@ -170,7 +171,76 @@ a:hover{
 
 /* End legacy classes*/
 
+/* newer classes - normal naming conventions apply (camelCase for CSS) */
 
+.buttonBox{
+    border-radius: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+    cursor:pointer;
+    padding-top: 0px;
+    background-color: #D0EEFF;
+    border:2px #E0E0E0 solid;
+    overflow:hidden;
+}
+.buttonBox:hover{
+    background-color:#74dcf8;   
+    border-color:#0A0A00;
+}
+.buttonBox2{
+    border-radius: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+    cursor:pointer;
+    padding-top: 0px;
+    background-color: #E0FFEF;
+    border:2px #E0E0E0 solid;
+    overflow:hidden;
+}
+.buttonBox2:hover{
+    background-color:#BBBBFF;   
+    border-color:#0A0A00;
+}
+.buttonBox3{
+    border-radius: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+    cursor:pointer;
+    padding-top: 0px;
+    background-color: #E0CCEF;
+    border:2px #E0E0E0 solid;
+    overflow:hidden;
+}
+.buttonBox3:hover{
+    background-color:#be59da;   
+    border-color:#0A0A00;
+}
+.boxLeft{
+    text-align:left;
+    font-size:35px;
+    padding-top:10px;
+    margin-bottom:-10px;
+}
+.boxUnder{
+    text-align:left;
+    font-size:24px;
+    font-family:'Times New Roman';
+    margin-bottom:-10px;
+}
+.subHeader{
+    font-size: 22px;
+    margin-bottom:30px;
+}
+
+.buttonImage{
+    float:right;
+    margin-right:-20px;
+    margin-bottom:-20px;
+    padding: 0 0 0 0; 
+    border-radius:20px;
+    height:150px;
+    width:150px;
+}
 /* Id customisations*/
 
 #header-list{
