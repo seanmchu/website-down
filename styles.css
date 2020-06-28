@@ -23,10 +23,11 @@ body {
     margin:auto;
     margin-top:50px;
     text-align:center;
-    margin-bottom:0px;
+    margin-bottom:150px;
     border-radius:20px;
     padding:30px 60px;
     border:2px solid #0A0A00;
+    overflow:hidden;
 }
 
 
@@ -241,6 +242,69 @@ a:hover{
     height:150px;
     width:150px;
 }
+
+.fullDiv{
+    margin: 30 0 30 0;
+    width:1000px;
+    height:700px;
+    display:inline-block;
+    border-style: solid black;
+}
+.fullSlimDiv{
+    width:1000;
+    height:50;
+    padding-top:10px;
+    display:inline-block;
+}
+
+.threeQuartDiv {
+    margin: 30 0 30 0;
+    width:750px;
+    height:450px;
+    float:left;
+    display:inline-block;
+}
+
+.halfDiv{
+    margin:30 0 30 0;
+    width:500px;
+    height:300px;
+    float:left;
+    display:inline-block;
+    text-align:center;
+}
+
+.quartDiv{
+    width:250px;
+    margin: 30 0 30 0;
+    height:450px;
+    float:left;
+    display:table;
+}
+
+.quartText{
+    display:table-cell; 
+    vertical-align:middle; 
+    line-height: normal;
+}
+.bigVideo{
+    width:1000px;
+    height:600px;
+    border-radius: 7px;
+}
+
+.mediumVideo{
+    width:750px;
+    height:450px;
+    border-radius:7px;
+}
+
+.smallVideo{
+    width:500px;
+    height:300px;
+    border-radius: 7px;
+}
+
 /* Id customisations*/
 
 #header-list{
