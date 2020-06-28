@@ -5,9 +5,9 @@ Link: https://seanmchu.github.io
 
 TODO:
 	Fill in Archives with delicious content
-		- Quotes [DONE]
-		- Music [DONE]
-		- Anime 
-		- Books
-		- Games
-		- Manga
+		- Quotes [DONE] <br>
+		- Music [DONE] <br>
+		- Anime <br>
+		- Books<br>
+		- Games<br>
+		- Manga<br>
