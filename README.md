@@ -4,7 +4,7 @@ Link: https://seanmchu.github.io
 
 
 TODO:
-	Fill in Archives with delicious content
+	Fill in Archives with delicious content<br>
 		- Quotes [DONE] <br>
 		- Music [DONE] <br>
 		- Anime <br>
