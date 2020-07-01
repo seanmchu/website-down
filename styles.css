@@ -273,6 +273,21 @@ a:hover{
     display:inline-block;
     text-align:center;
 }
+.halfDiv-image-link{
+    height:300px;
+    border-radius:5px;
+}
+.halfDiv-image-link:hover{
+    border: 3px solid violet; 
+}
+
+.halfDiv-text{
+    margin:30 0 30 0;
+    width:500px;
+    height:300px;
+    float:left;
+    display:table;
+}
 
 .quartDiv{
     width:250px;
@@ -282,7 +297,7 @@ a:hover{
     display:table;
 }
 
-.quartText{
+.boxText{
     display:table-cell; 
     vertical-align:middle; 
     line-height: normal;
