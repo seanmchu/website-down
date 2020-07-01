@@ -273,6 +273,11 @@ a:hover{
     display:inline-block;
     text-align:center;
 }
+.halfDiv-image {
+    height:300px;
+    max-width:500px;
+    border-radius:5px;
+}
 .halfDiv-image-link{
     height:300px;
     border-radius:5px;
