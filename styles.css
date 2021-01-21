@@ -10,7 +10,7 @@
 }
 
 body {
-    background-image: url("src/altai.jpg");
+    background-color:#d6d5f5;
     color: #192841;
 }
 
@@ -36,7 +36,7 @@ header {
     padding: 40px;
     border-radius:20px;
     margin:auto;
-    width:1400px;
+    width:1000px;
     text-align:justify;
 }
 
@@ -66,8 +66,8 @@ a:hover{
 .MainInfo{
     margin: auto;
     text-align: center;
-    width: 60%;
-    padding:300px;
+    width: 50%;
+    padding:200px;
     text-shadow: -1px 0 #E5E5E5, 0 1px #E5E5E5, 1px 0 #E5E5E5, 0 -1px #E5E5E5;
 }
 
@@ -110,10 +110,12 @@ a:hover{
     font-size: 23px;
 }
 .Courseheader{
-    font-size: 20px;
+    font-size: 30px;
+    margin: 40 0 40 0;
 }
 .Courseinfo{
     font-size:20px;
+    margin: 20 0 20 0;
 }
 .ProjectList{
     text-align: center;
@@ -324,6 +326,34 @@ a:hover{
     height:300px;
     border-radius: 7px;
 }
+/* very good, steal CSS from Dillong */
+.TierListTable {
+    width: 100%;
+    height: auto;
+    border: solid 2px #00000000;
+    border-radius: 20px;
+    background-color: #E0E0E0;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: 0;
+    margin-bottom: 20;
+    padding: 20;
+}
+.TierListHeader {
+    font-size: 22;
+    height: 40;
+}
+.TierListRank {
+    font-size: 21;
+    border: solid 2px #00000000;
+    border-radius: 5;
+    text-align: center;
+}
+.TierListTableCell{
+    padding-left: 20;
+    padding-right: 20;
+    height: 35;
+}
 
 /* Id customisations*/
 
@@ -343,11 +373,11 @@ a:hover{
 }
 
 #Name{
-    font-size: 70px;
+    font-size: 40px;
 }
 
 #Occupation{
-    font-size: 25px;
+    font-size: 20px;
 }
 #dong_dog{
     max-width:400px;
