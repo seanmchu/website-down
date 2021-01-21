@@ -4,4 +4,5 @@ Link: https://seanmchu.github.io
 
 
 TODO:
-	Do more JS related stuff, maybe learn react/angular to do it.
+	Reformat website all
+	
